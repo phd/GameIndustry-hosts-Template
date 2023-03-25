@@ -9,10 +9,10 @@
 # Stärkung der eigenen Privatsphäre auf Internetseiten und Programmen
 #
 # Version: Template für Spieleclients und Spiele
-# Änderungsdatum: 11.03.2023
+# Änderungsdatum: 25.03.2023
 #
 # Diese Datei stammt von https://www.gameindustry.eu
-# E-Mail: noreply@gameindustry.eu
+# E-Mail: https://gameindustry.eu/contact/
 # Hilfe: https://gameindustry.eu/faq/
 # Steam: https://www.steamcommunity.com/groups/Penguindome
 # Github: https://github.com/KodoPengin/GameIndustry-hosts-Template
@@ -1171,6 +1171,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 community.cloudflare.steamstatic.com # Sounds, CSS Dateien, Javascript, Emoticons, Icons, Grafiken Sammelkarten
 #0.0.0.0 cdn.cloudflare.steamstatic.com # Grafiken der Bibliothek - Erfolge, Teaser für Bilder und Filmchen
 #0.0.0.0 store.cloudflare.steamstatic.com # Javascript, CSS, Schriften, Webseitengrafiken
+#0.0.0.0 shared.cloudflare.steamstatic.com
 
 # Steam: Community
 # 84.53.187.17
@@ -1459,8 +1460,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 www-fastly.glb.paypal.com
 0.0.0.0 t.paypal.com # Trackingpixel
 
-# Kopierschutz & DRM
-# Kopierschutz & DRM, AntiCheat und andere Gängelungen
+# Kopierschutz & DRMKopierschutz & DRM, AntiCheat und andere Gängelungen
 
 # BattlEye Innovations
 # BattlEye
@@ -1556,8 +1556,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 securom-pa-1057720103.eu-west-1.elb.amazonaws.com
 #0.0.0.0 ec2-34-241-121-74.eu-west-1.compute.amazonaws.com
 
-# Desktop-Spiele
-# Verbindungsdaten, Analytics, Telemetrie, Spyware, Mehrspielerfunktionen und unnötiger Mist in Spielen
+# Desktop-SpieleVerbindungsdaten, Analytics, Telemetrie, Spyware, Mehrspielerfunktionen und unnötiger Mist in Spielen
 # Adressen sind einzeln je Produkt nach Publishernamen aufgeführt
 # Achtung! In dieser Kategorie sind teilweise diverse Newsletter, Herstellerwebseiten und andere Dienste
 # jeweiliger Produkte gesperrt. Handhabung nach eigenem Bedarf
@@ -1828,6 +1827,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 40.113.111.34.bc.googleusercontent.com
 0.0.0.0 212.82.111.34.bc.googleusercontent.com
+
+# 430 Games
+# Project: Mirror
+# Ip/s blockieren:
+# 35.190.78.8
+0.0.0.0 perf-events.cloud.unity3d.com
+0.0.0.0 8.78.190.35.bc.googleusercontent.com
 
 # 5 Lives Studios
 # Satellite Reign
@@ -2204,6 +2210,38 @@ ff02::3 ip6-allhosts
 
 # Spec Ops: The Line
 0.0.0.0 p.line.dev.2kgames.com
+
+# Tiny Tinas Assault on Dragon Keep: A Wonderlands One-shot Adventure
+# 13.32.121.74
+# 13.32.121.100
+# 13.32.121.123
+# 13.32.121.128
+# 142.93.184.130
+# 64.233.163.127
+# 3.222.130.9
+# 18.209.183.14
+# 44.194.24.165
+# 54.173.71.63
+# 54.173.71.63
+# 54.224.90.112
+# 34.199.149.102
+# 44.209.99.230
+# 52.22.109.165
+# 54.152.58.87
+# 100.25.126.231
+# 44.205.25.169
+# 18.213.99.10
+#0.0.0.0 cdn.services.gearboxsoftware.com
+#0.0.0.0 stun1.l.google.com
+#0.0.0.0 account.services.gearboxsoftware.com
+#0.0.0.0 news.services.gearboxsoftware.com
+#0.0.0.0 hermes-a.services.gearboxsoftware.com
+#0.0.0.0 fellowship.services.gearboxsoftware.com
+#0.0.0.0 shift.gearboxsoftware.com
+#0.0.0.0 chat-zz-prod.services.gearboxsoftware.com
+#0.0.0.0 hangouts.chat.services.gearboxsoftware.com
+#0.0.0.0 pubsub.chat.services.gearboxsoftware.com
+#0.0.0.0 chat.services.gearboxsoftware.com
 
 # WWE Titel seitens 2K abgeschaltet, kein Support oder Onlinefunktionen
 # WWE 2016
@@ -5163,6 +5201,29 @@ ff02::3 ip6-allhosts
 # 2001:4860:4802:36::36
 0.0.0.0 us-central1-escape-analysis.cloudfunctions.net
 
+# Resident Evil 4 Chainsaw Demo
+# 13.224.189.68
+# 13.224.189.123
+# 13.224.189.45
+# 13.224.189.50
+# 13.32.121.104
+# 13.32.121.26
+# 13.32.121.38
+# 13.32.121.101
+# 142.251.39.106
+# 172.217.168.202
+# 172.217.168.234
+# 216.58.208.106
+# 216.58.214.10
+# 142.250.179.138
+# 142.250.179.170
+# 142.250.179.202
+# 142.251.36.10
+# 142.251.36.42
+#0.0.0.0 mtm.rebe.capcom.com
+#0.0.0.0 hjm.rebe.capcom.com
+0.0.0.0 pubsub.googleapis.com
+
 # スト5 | Street Fighter 5
 # Ingame Update
 # 23.62.98.25
@@ -6329,6 +6390,21 @@ ff02::3 ip6-allhosts
 # Deponia und Deponia: The Complete Journey
 0.0.0.0 cgpromotion.azurewebsites.net
 0.0.0.0 cgpromotion.blob.core.windows.net
+
+# Edna & Harvey: The Breakout - Anniversary Edition
+# Ip/s blockieren:
+# 34.111.113.40
+# 34.111.82.212
+# 52.166.80.100
+# 104.40.183.236-×
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 unity-ai-dp-prd.cdp.internal.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 cgpromotion.blob.core.windows.net
+0.0.0.0 cgpromotion.azurewebsites.net
+0.0.0.0 40.113.111.34.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
 
 # Felix The Reaper
 # Ip/s blockieren:
@@ -7912,6 +7988,44 @@ ff02::3 ip6-allhosts
 0.0.0.0 gosgvaprod-qos01.ea.com
 0.0.0.0 gosprod-qos01.bio-dub.ea.com
 #0.0.0.0 eadpgs-blapp001.ea.com
+
+# Eleventh Hour Games
+# Last Epoch
+# 128.0.114.6
+# 31.214.158.30
+# 85.190.150.198
+# 31.214.142.8
+# 128.0.112.6
+# 46.251.234.14
+# 85.190.156.39
+# 85.190.159.9
+# 85.190.158.140
+# 44.239.148.234
+# 35.157.63.228
+# 34.111.113.40
+# 34.111.82.212
+# 35.190.78.8
+0.0.0.0 remote-config-prd.uca.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 unity-ai-dp-prd.cdp.internal.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 perf-events.cloud.unity3d.com
+#0.0.0.0 ps.pndsn.com
+#0.0.0.0 df4fe.playfabapi.com
+#0.0.0.0 ping-location-ausy.nitrado.net
+#0.0.0.0 ping-location-brsp.nitrado.net
+#0.0.0.0 ping-location-de.nitrado.net
+#0.0.0.0 ping-location-jpto.nitrado.net
+#0.0.0.0 ping-location-sg.nitrado.net
+#0.0.0.0 ping-location-ukln.nitrado.net
+#0.0.0.0 ping-location-usla.nitrado.net
+#0.0.0.0 ping-location-usmi.nitrado.net
+#0.0.0.0 ping-location-usny.nitrado.net
+0.0.0.0 40.113.111.34.bc.googleusercontent.com
+0.0.0.0 212.82.111.34.bc.googleusercontent.com
+0.0.0.0 8.78.190.35.bc.googleusercontent.com
+#0.0.0.0 master-mainserver-1943019976.us-west-2.elb.amazonaws.com
+#0.0.0.0 lastepoch-data-prod.documents.azure.com
 
 # Ellada Games
 # Niffelheim
@@ -12875,6 +12989,11 @@ ff02::3 ip6-allhosts
 # 62.152.111.43
 #0.0.0.0 online.milestone.it # Für Singleplayer nicht benötigt
 
+# MotoGP™19
+# 52.48.205.201, 52.51.3.8
+# s. Eintrag Steam: IP Checks
+#0.0.0.0 online-milestone2.eu-west-1.elasticbeanstalk.com
+
 # Milkstone Studios
 # White Noise 2
 # Ip/s blockieren:
@@ -12963,6 +13082,62 @@ ff02::3 ip6-allhosts
 # 18.236.52.131
 #0.0.0.0 gsp-auw001-se03.gamesparks.net
 #0.0.0.0 gsp-auw001-se18.gamesparks.net
+
+# Override 2: Super Mech League Demo
+# 20.245.249.1
+# 52.147.56.67
+# 20.210.134.151
+# 20.203.64.155
+# 20.245.249.11
+# 20.84.181.50
+# 20.23.198.162
+# 104.43.54.51
+# 20.118.112.98
+# 20.67.215.208
+# 52.252.132.83
+# 20.48.11.34
+# 20.94.14.140
+# 52.151.216.205
+# 20.239.123.151
+# 191.232.68.153
+# 20.227.44.162
+# 20.87.100.197
+# 35.166.55.23
+# 44.236.142.208
+# 44.237.141.7
+# 44.239.148.243
+# 44.240.38.130
+# 44.240.143.149
+# 54.69.57.49
+# 54.184.252.139
+# 35.166.55.23
+# 44.236.142.208
+# 44.237.141.7
+# 44.239.148.243
+# 44.240.38.130
+# 44.240.143.149
+# 54.69.57.49
+# 54.184.252.139
+#0.0.0.0 rk85kjhj2h.execute-api.us-east-2.amazonaws.com
+#0.0.0.0 99BF8.playfabapi.com
+#0.0.0.0 pfmsqosprod1-0.southafricanorth.cloudapp.azure.com
+#0.0.0.0 pfmsqosprod1-0.australiaeast.cloudapp.azure.com
+#0.0.0.0 pfmsqosprod1-0.brazilsouth.cloudapp.azure.com
+#0.0.0.0 pfmsqosprod1-0.eastasia.cloudapp.azure.com
+#0.0.0.0 pfmsqosprod1-0.eastus.cloudapp.azure.com
+#0.0.0.0 pfmsqosprod1-0.eastus2.cloudapp.azure.com
+#0.0.0.0 pfmsqosprod1-0.japaneast.cloudapp.azure.com
+#0.0.0.0 pfmsqosprod1-0.northcentralus.cloudapp.azure.com
+#0.0.0.0 pfmsqosprod1-0.northeurope.cloudapp.azure.com
+#0.0.0.0 pfmsqosprod1-0.southcentralus.cloudapp.azure.com
+#0.0.0.0 pfmsqosprod1-0.southeastasia.cloudapp.azure.com
+#0.0.0.0 pfmsqosprod1-0.westeurope.cloudapp.azure.com
+#0.0.0.0 pfmsqosprod1-0.centralus.cloudapp.azure.com
+#0.0.0.0 pfmsqosprod1-0.westus.cloudapp.azure.com
+#0.0.0.0 pfmsqosprod1-0.uaenorth.cloudapp.azure.com
+#0.0.0.0 pfmsqosprod1-0.australiasoutheast.cloudapp.azure.com
+#0.0.0.0 pfmsqosprod1-0.japanwest.cloudapp.azure.com
+
 
 # Rock of Ages 3: Make & Break
 # 99.86.7.59, 50.87.146.15
@@ -15055,6 +15230,15 @@ ff02::3 ip6-allhosts
 0.0.0.0 perf-events.cloud.unity3d.com
 0.0.0.0 8.78.190.35.bc.googleusercontent.com
 
+# Scars Above
+# Ip/s blockieren:
+# 35.227.230.186
+# 40.71.17.2
+# 40.121.237.12
+0.0.0.0 hdrprod.hydrapi.net
+0.0.0.0 hdrprodmain.hydrapi.net
+0.0.0.0 telemetry.deeparc.net
+
 # Primitive Studio
 # Insects runner
 # Ip/s blockieren:
@@ -16627,6 +16811,7 @@ ff02::3 ip6-allhosts
 
 # Total War Saga: Thrones of Britannia
 # Launcher / Inhalte wurden hier abgeschaltet
+0.0.0.0 cser.steampowered.com
 0.0.0.0 launcher.totalwar.com
 0.0.0.0 twlauncher-86272956.eu-west-1.elb.amazonaws.com
 #0.0.0.0 ajax.googleapis.com
@@ -16645,13 +16830,6 @@ ff02::3 ip6-allhosts
 #0.0.0.0 fonts.gstatic.com # Schriften
 0.0.0.0 js-agent.newrelic.com
 0.0.0.0 bam.nr-data.net
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
 
 # Two Point Hospital
 # Ip/s blockieren:
@@ -16937,6 +17115,11 @@ ff02::3 ip6-allhosts
 #0.0.0.0 142.95.120.34.bc.googleusercontent.com
 #0.0.0.0 170.99.95.34.bc.googleusercontent.com
 0.0.0.0 249.195.120.34.bc.googleusercontent.com
+
+# Sparpweed
+# 18.185.111.141
+0.0.0.0 steamdatasuite.com
+0.0.0.0 ec2-18-185-111-141.eu-central-1.compute.amazonaws.com
 
 # Shiro Games
 # Evoland Legendary Edition
@@ -18526,16 +18709,15 @@ ff02::3 ip6-allhosts
 0.0.0.0 a1737.b.akamai.net
 
 # Worms W.M.D.
-# 208.64.200.105
-0.0.0.0 gds1.steampowered.com
-0.0.0.0 gds2.steampowered.com
-0.0.0.0 gds3.steampowered.com
-0.0.0.0 gds4.steampowered.com
-0.0.0.0 208-64-200-105.steampowered.com
-0.0.0.0 a1737.b.akamai.net
-0.0.0.0 ads.t17service.com
-0.0.0.0 worms-wmd-pc.t17service.com
-0.0.0.0 livewmdirc.team17.com
+# 34.249.218.153
+# 52.212.190.155
+# 34.254.211.51
+# 52.16.182.14
+# 52.211.68.243
+# 142.250.186.100
+#0.0.0.0 ads.t17service.com
+#0.0.0.0 worms-wmd-pc.t17service.com
+#0.0.0.0 livewmdirc.team17.com
 0.0.0.0 google-analytics.com
 
 # Worms World Party Remastered
@@ -19696,6 +19878,7 @@ ff02::3 ip6-allhosts
 
 # Two Tribes Publishing
 # RIVE: Wreck, Hack, Die, Retry!
+# 37.97.129.160
 0.0.0.0 www.rivethegame.com
 
 # Ubisoft Entertainment SA
@@ -21013,35 +21196,16 @@ ff02::3 ip6-allhosts
 
 # WOLCEN Studio
 # Wolcen: Lords of Mayhem
-# Server von 01-35 - Angaben sind daher nicht vollständig
-# Kommunikation läuft über Websocketlayer
-# 52.215.193.28
-# 52.215.193.173
-# 18.194.70.141
-# 52.215.193.12
-# 52.215.193.239
-# 52.215.193.63
-# 52.215.193.207
-# 54.77.178.16
-# 35.157.25.32
+# 18.66.248.14
+# 18.66.248.65
+# 18.66.248.79
+# 18.66.248.112
+# 3.124.41.201
+# 3.124.83.10
+# 52.58.38.30
 0.0.0.0 crashreport.wolcengame.com
-#0.0.0.0 live-l353548zTwiJ.ws.gamesparks.net
-#0.0.0.0 gamelift.us-east-1.amazonaws.com
-#0.0.0.0 gamelift.ap-northeast-1.amazonaws.com
-#0.0.0.0 gamelift.eu-west-1.amazonaws.com
-#0.0.0.0 gamelift.eu-west-2.amazonaws.com
-#0.0.0.0 gamelift.eu-central-1.amazonaws.com
-#0.0.0.0 gsp-aeu007-se03.gamesparks.net
-#0.0.0.0 gsp-aeu007-se04.gamesparks.net
-#0.0.0.0 gsp-aeu007-se12.gamesparks.net
-#0.0.0.0 gsp-aeu007-se14.gamesparks.net
-#0.0.0.0 gsp-aeu007-se18.gamesparks.net
-#0.0.0.0 gsp-aeu007-se23.gamesparks.net
-#0.0.0.0 gsp-aeu007-se35.gamesparks.net
-#0.0.0.0 gsp-aeu007-se22.gamesparks.net
-#0.0.0.0 sp-aeu007-se23.gamesparks.net
-#0.0.0.0 gsp-aeu007-se24.gamesparks.net
-#0.0.0.0 ws-lb.gamesparks.net
+#0.0.0.0 lexmomznzvdbbhh5cdgbqt5d6u.appsync-realtime-api.eu-central-1.amazonaws.com
+#0.0.0.0 lexmomznzvdbbhh5cdgbqt5d6u.appsync-api.eu-central-1.amazonaws.com
 
 # Worm Animation
 # Beat the Game
